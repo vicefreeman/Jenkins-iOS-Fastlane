@@ -2,7 +2,8 @@ import groovy.util.*
 
 // Powered by Infostretch
 pipeline {
-    agent { label 'mac-mini-slave-local' }
+// agent { label 'mac-mini-slave-local'
+    agent { label 'IT-Server.local' }
 
     parameters {
         // the default choice for commit-triggered builds is the first item in the choices list
